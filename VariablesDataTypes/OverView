@@ -1,0 +1,139 @@
+'''
+
+1.Python is Dynamically typed Programming language
+2.In python While declearing variables we no need to menction DataTypes
+3.Datatypes will be assignes by language based on values sotred in the variables at runtime.
+
+Execution phase:
+compiled time phase
+Runtime time phase
+
+Dynamically Types: 
+
+{Variables.py(Source file) ----> language processer(Compiler)Byte Code(Variables.pyc)}COMPILED TIME PHASE---->{Python Virtual Machine(Interpeter)----> Machine Code(0's and 1's)}RUNTIME PHASE
+
+At run time Data types will be assigned.
+
+a = 10
+b = 20
+
+print("Addition of a and b :",a+b)
+
+From the first line the Exection will start
+
+At Compilation time the Errors Will be Checked
+In python every thing is Objects.
+
+We can change the values when ever we want.
+String Formating:
+-----------------
+name = "VEERANKI SAI CHARAN"
+age = 22
+print(f"My Name is {name} and my age is {age}") --- Example for string formating.
+Hear F is a key word.
+
+
+'''
+
+'''
+DataTypes in Python:
+-------------------
+2 types:
+1. Basic DataTypes (int,float,bool, str,complex)
+2. Advance DataTypes(list, tuple, set, dictionary)
+
+It is a mechanism that converts our real world data into binary form.
+
+Basic DataTypes:
+----------------
+Numbers: Int,Float.
+String: Char,Str.
+Boolean: True,False.
+
+These kind of data python can handle internally. apart of this is we use any kind of data python directly cant handle.
+
+In python we dont have Char data type.
+
+Checking the data Types:
+
+Type Function: type() - Is is used to Check the type of the variable
+
+a = 'sai' #str
+a = 's' #Str
+Single Character or multiplecharacters everthing python Consider it as a string.
+
+a = 22 #int
+
+a = True , False #bool
+
+a = 3+4j #Complex
+1.Int 
+2.Float
+3.Str
+4.Bool
+5.Complex
+
+Advance DataTyes:
+-----------------
+
+List - []
+tuple - ()
+set   - {}
+dict  - {key : Value}
+
+'''
+
+'''
+Strings in python:
+------------------
+
+name = 'charan'
+name = "charan"
+
+Multiline String:
+Three single quotes or three double quotes
+(''' ''')
+(""" """)
+
+
+len() - By using len() function we can know how many characters are present in side a string.
+message = "Veeranki sai charan"
+print(len(message)) #OutPut: 19
+Changing the case of a string:
+------------------------------
+upper() - it convers the entire string into upper chase letters
+
+message = "Veeranki Sai Charan"
+capital_text = message.upper()
+print(capital_text) #Output: VEERANKI SAI CHARAN
+
+lower() - it converts the entire string into lower case letters.
+
+message = "VEERANKI SAI CHARAN"
+lower_string = message.lower()
+print(lower_string) #veeranki sai charan
+
+Finding sub string in a string:
+-------------------------------
+find() - The fing method returns the index value where the substring starts or -1 if its not found
+the in keyword checks weather the substring is present in the string or not it present it returns True else False
+
+text  = "My name is sai charan and i am from vijayawada"
+print(text.find(vijayawada)) #output: 36
+print("vijayawada" in text) #Output: True
+
+
+replace() - this replace method replaces all the instances with the given name.
+
+split() - Converts string to list based on specified delimeter.
+By default the space is taken as a delimeter.
+
+text = "Banana, apple, cherry"
+split_text = text.split(",")
+print(split_text)
+
+join() - it will covert list to string.
+join_text = " - ".join(split_text)
+print(join_text)
+
+''' 
