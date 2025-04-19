@@ -21,3 +21,14 @@ print(s1)
 # Pop without index it will delete and return one element
 
 del s1
+# union
+s1 = {10,20,30,40,50}
+s2 = {'charan',22.4,20,55.5,23,20}
+
+# s1.union(s2)
+# print(s1)
+
+s1.intersection(s2)
+print(s1)
+s1.clear
+print(s1)
