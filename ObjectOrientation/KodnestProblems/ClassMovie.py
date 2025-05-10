@@ -19,3 +19,4 @@ my_movie = Movie("Inception", "Christopher Nolan")
 my_movie.display_info()
 my_movie.mark_watched()
 my_movie.display_info()
+

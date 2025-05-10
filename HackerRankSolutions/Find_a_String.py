@@ -10,3 +10,8 @@ main_str = input()
 sub_str = input()
 result = SubString(main_str,sub_str)
 print(result)
+
+'''
+If we want to find a substting in a string there is a forfula that is "Lenght of main string - "lenght of
+
+'''
