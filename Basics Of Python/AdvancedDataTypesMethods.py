@@ -12,7 +12,6 @@ In list method will only allowed to pass iterable objects only.
 '''
 # l1 = list(5) #error : 'int' object is not iterable
 
-
 l2 = list('charan')
 print(l2) # ['c', 'h', 'a', 'r', 'a', 'n']
 
